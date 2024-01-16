@@ -25,12 +25,12 @@ async def get_weather_geo(message: types.Message):
     code_to_smile = {
         'Clear': "Ясно ☀️",
         'Clouds': "Облачно ⛅️",
-        'Rain': "Дождь \🌧",
-        'Drizzle': "Моросня \🌧",
-        'Thunderstorm': "Гроза \⛈",
-        'Snow': "Снег \🌨",
-        'Mist': "Туман \🌫",
-        'Fog': "Туман \🌫"
+        'Rain': "Дождь 🌧",
+        'Drizzle': "Моросня 🌧",
+        'Thunderstorm': "Гроза ⛈",
+        'Snow': "Снег 🌨",
+        'Mist': "Туман 🌫",
+        'Fog': "Туман 🌫"
     }
 
     try:
@@ -76,12 +76,12 @@ async def get_weather(message: types.Message):
     code_to_smile = {
         'Clear': "Ясно ☀️",
         'Clouds': "Облачно ⛅️",
-        'Rain': "Дождь \🌧",
-        'Drizzle': "Моросня \🌧",
-        'Thunderstorm': "Гроза \⛈",
-        'Snow': "Снег \🌨",
-        'Mist': "Туман \🌫",
-        'Fog': "Туман \🌫"
+        'Rain': "Дождь 🌧",
+        'Drizzle': "Моросня 🌧",
+        'Thunderstorm': "Гроза ⛈",
+        'Snow': "Снег 🌨",
+        'Mist': "Туман 🌫",
+        'Fog': "Туман 🌫"
     }
 
     try:
@@ -134,4 +134,4 @@ def main_btn():
 
 
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)
+    executor.start_polling(dp, skip_updates=False)
